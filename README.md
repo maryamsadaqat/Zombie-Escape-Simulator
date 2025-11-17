@@ -63,7 +63,7 @@ The project demonstrates the use of several important data structures, pathfindi
 - Grid is displayed on screen.  
 - HUD shows player info.  
 - Inventory and health are always visible.
-- 
+  
 
 
 ### **3. System Architecture**
