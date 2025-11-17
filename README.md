@@ -9,6 +9,7 @@ The goal is to safely reach an exit while avoiding zombies, using weapons, medki
 The project demonstrates the use of several important data structures, pathfinding algorithms, and game development concepts.
 
 
+
 ### **2. Project Functionalities**
 
 #### **1. Maze Generation**
@@ -61,7 +62,8 @@ The project demonstrates the use of several important data structures, pathfindi
 #### **11. User Interface**
 - Grid is displayed on screen.  
 - HUD shows player info.  
-- Inventory and health are always visible.  
+- Inventory and health are always visible.
+- 
 
 
 ### **3. System Architecture**
@@ -79,13 +81,15 @@ The project demonstrates the use of several important data structures, pathfindi
 | **Score System** | Saves and loads high score |
 
 
+
 ### **4. Data Structures Used**
 - **Vector (vector):** Stores grid, zombies, exits, FX, and path preview.  
 - **Queue (queue):** Used for BFS shortest-path search.  
 - **Stack (stack):** Used for weapon inventory (LIFO grenades).  
 - **Deque (deque):** Used for medkit inventory (FIFO usage).  
 - **Priority Queue (priority_queue):** Used in Dijkstra’s safest path algorithm.  
-- **Random Engine (mt19937):** Used for maze and item randomness.  
+- **Random Engine (mt19937):** Used for maze and item randomness.
+- 
 
 
 ### **5. Algorithms Used**
@@ -104,7 +108,8 @@ The project demonstrates the use of several important data structures, pathfindi
 
 #### **5.5 Player Inventory Logic**
 - Weapons use LIFO (stack)  
-- Medkits use FIFO (deque)  
+- Medkits use FIFO (deque)
+- 
 
 
 ### **6. Function Descriptions**
@@ -117,10 +122,11 @@ The project demonstrates the use of several important data structures, pathfindi
 - **UseMedkit():** Restores HP by removing medkit from deque.  
 - **ResolveTurn():** Processes one full turn (zombie movement, infection, hints, score, win/loss).  
 - **DrawGrid() / DrawHUD():** Displays maze, player, zombies, inventory, and UI.  
-- **FinalizeScore():** Saves best score to file.  
+- **FinalizeScore():** Saves best score to file.
+- 
 
 
-### **8. Conclusion**
+### **7. Conclusion**
 This project demonstrates a complete and functional 2D survival game built using C++ and Raylib.  
 It integrates essential concepts from Data Structures, Algorithms, and Game Development, including:  
 - Procedural maze generation  
