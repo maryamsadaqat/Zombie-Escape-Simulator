@@ -89,7 +89,7 @@ The project demonstrates the use of several important data structures, pathfindi
 - **Deque (deque):** Used for medkit inventory (FIFO usage).  
 - **Priority Queue (priority_queue):** Used in Dijkstra’s safest path algorithm.  
 - **Random Engine (mt19937):** Used for maze and item randomness.
-- 
+  
 
 
 ### **5. Algorithms Used**
@@ -109,7 +109,7 @@ The project demonstrates the use of several important data structures, pathfindi
 #### **5.5 Player Inventory Logic**
 - Weapons use LIFO (stack)  
 - Medkits use FIFO (deque)
-- 
+  
 
 
 ### **6. Function Descriptions**
@@ -123,7 +123,7 @@ The project demonstrates the use of several important data structures, pathfindi
 - **ResolveTurn():** Processes one full turn (zombie movement, infection, hints, score, win/loss).  
 - **DrawGrid() / DrawHUD():** Displays maze, player, zombies, inventory, and UI.  
 - **FinalizeScore():** Saves best score to file.
-- 
+  
 
 
 ### **7. Conclusion**
